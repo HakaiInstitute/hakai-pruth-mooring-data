@@ -1,0 +1,13 @@
+instrument_manufacturer,instrument_model,instrument_sn,station,target_depth,deployment_time,comment,temperature_correction,conductivity_correction,oxygen_correction
+Onset,Tidbit,20187017,Pruth,0.3,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187018,Pruth,2,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187019,Pruth,5,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187020,Pruth,7.5,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187021,Pruth,10,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187022,Pruth,15,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187023,Pruth,20,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187024,Pruth,25,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187025,Pruth,30,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187026,Pruth,40,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187027,Pruth,50,2017-12-02T00:00:00 +00:00,,,,
+Onset,Tidbit,20187028,Pruth,60,2017-12-02T00:00:00 +00:00,,,,
