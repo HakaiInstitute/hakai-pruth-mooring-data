@@ -1,4 +1,4 @@
-instrument_manufacturer,instrument_model,instrument_sn,station,target_depth,deployment_time,comment,correction,db_table,table_type
+instrument_manufacturer,instrument_model,instrument_sn,station,fixed_depth,deployment_time,comment,correction,db_table,table_type
 Onset,Tidbit,20187017,Pruth,0.3,2017-12-02T00:00:00 +00:00,,,pruth_mooring_0_3m,temperature
 Onset,Tidbit,20187018,Pruth,2,2017-12-02T00:00:00 +00:00,,,pruth_mooring_2m,temperature
 Onset,Tidbit,20187019,Pruth,5,2017-12-02T00:00:00 +00:00,,,pruth_mooring_5m,temperature
