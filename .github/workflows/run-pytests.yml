@@ -1,14 +1,13 @@
 name: Python package
 
 on:
-  pull-requests:
+  pull-request:
   push:
     branches: main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python ${{ matrix.python-version }}
