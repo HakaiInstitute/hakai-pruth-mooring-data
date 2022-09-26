@@ -14,7 +14,7 @@ class TestInstrumentLog(unittest.TestCase):
         """Test instrument-log.csv file by reading file, parsing dates
         and making sure that the mandatory columns are available"""
         logs = glob(r"instrument-log.csv", recursive=True)
-        if logs is None:
+        if not logs:
             return
         # Parse log
         df = pd.read_csv(logs[0])
@@ -34,8 +34,8 @@ class TestInstrumentLog(unittest.TestCase):
     def test_station_log(self):
         """Test station-log.csv file by reading file, parsing dates
         and making sure that the mandatory columns are available"""
-        logs = glob(r"station-log.csv")
-        if logs is None:
+        logs = glob(r"stations-log.csv")
+        if not logs:
             return
 
         # Parse log
