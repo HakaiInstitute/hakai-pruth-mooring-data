@@ -2,7 +2,8 @@ name: Python package
 
 on:
   pull-requests:
-    branch: main
+  push:
+    branches: main
 
 jobs:
   build:
