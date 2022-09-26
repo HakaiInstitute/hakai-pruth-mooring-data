@@ -2,3 +2,7 @@
 processed-data/.DS_Store
 
 .DS_Store
+
+.vscode/
+
+tests/__pycache__/
