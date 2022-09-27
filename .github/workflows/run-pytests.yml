@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.CI_TOKEN}}
         run: |
-          git clone https://github.com/HakaiInstitute/hakai-datasets-repo-standard-tests.git
+          git clone https://HakaiInstitute:${{GITHUB_TOKEN}@github.com/HakaiInstitute/hakai-datasets-repo-standard-tests.git
           python -m pip install --upgrade pip
           pip install pytest pandas
       - name: Test with pytest
