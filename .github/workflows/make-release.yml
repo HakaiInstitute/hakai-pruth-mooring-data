@@ -25,7 +25,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: tests
-
       PR_STATUS: ''
     steps:
       - uses: actions/checkout@v3
@@ -34,11 +33,11 @@ jobs:
           echo 'PR_STATUS<<EOF' >> $GITHUB_ENV
           gh pr status >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
-
       - name: Create Pull Request
         if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]')}}
         run: |
           gh pr create -B release -H main --title "Merge latest changes to main into release branch" --body-file ".github/workflows/release-body.md"
+          
   merge:
     runs-on: ubuntu-latest
     needs: [tests, release]
