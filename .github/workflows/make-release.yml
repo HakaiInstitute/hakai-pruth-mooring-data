@@ -29,8 +29,9 @@ jobs:
       - name: Create Pull Request
         id: cpr
         run: gh pr create -B release -H main \
-          --title 'Merge latest changes to main into release branch' \
-          --body '# Merge latest changes to release branch \\nThis pul request is automatically generated and will be automatically merged into the release branch if no issues are detected.' \
+          --title "Merge latest changes to main into release branch" \
+          --body "# Merge latest changes to release branch
+          This pul request is automatically generated and will be automatically merged into the release branch if no issues are detected." \
           --label automated
         env:
           GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
