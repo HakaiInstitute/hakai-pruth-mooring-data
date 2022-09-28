@@ -23,9 +23,10 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: tests
-    if: github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v3
+      - name: Review PR status
+        run: gh pr status
       # Make changes to pull request here
       - name: Create Pull Request
         id: cpr
