@@ -38,3 +38,7 @@ jobs:
         if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]')}}
         run: |
           gh pr create -B release -H main --title "Merge latest changes to main into release branch" --body-file ".github/workflows/release-body.md"
+
+      - name: Auto-merge pull requests
+        if: tests
+        run: gh pr merge --auto --merge
