@@ -13,20 +13,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-
-      - name: Clone Hakai data repo test
-        run: git clone https://HakaiInstitute:${{secrets.CI_TOKEN}}@github.com/HakaiInstitute/hakai-datasets-repo-standard-tests.git
       - name: Install Hakai Tests
         run: |
           python -m pip install --upgrade pip
-          pip install pytest pandas
+          pip install git+https://HakaiInstitute:${{secrets.CI_TOKEN}}@github.com/HakaiInstitute/hakai-datasets-repo-standard-tests.git
       - name: Test with pytest
         run: |
-          pytest
-      - name: Delete tests repo
-        run: |
-          git rm --cached hakai-datasets-repo-standard-tests
-          rm -rf .gitmodules
-          rm -rf hakai-datasets-repo-standard-tests
-          rm -rf temp
-          ls
+          pytest --pyargs hakai_data_repo_tests
