@@ -28,12 +28,6 @@ jobs:
       # Make changes to pull request here
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.CI_TOKEN }}
-          base: release
-          branch: main
-          title: 'Automated release'
-          commit-message: 'Automated pull request to release branch'
-          body: 'Automated pull request to release branch'
-          labels: release,automated
+        run: gh pr create -B release -H main --title 'Merge main into release' --body 'Created by Github action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
