@@ -4,6 +4,8 @@ on:
     branches: main
 env:
   GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
+  MERGE_TO_BRANCH: release
+  MERGE_FROM_BRANCH: main
 
 jobs:
   tests:
@@ -36,7 +38,7 @@ jobs:
       - name: Create Pull Request
         if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]')}}
         run: |
-          gh pr create -B release -H main --title "Merge latest changes to main into release branch" --body-file ".github/workflows/release-body.md"
+          gh pr create -B $env.MERGE_TO_BRANCH -H $env.MEGE_FROM_BRANCH --title "Merge latest changes to main into release branch" --body-file ".github/workflows/release-body.md"
 
   merge:
     runs-on: ubuntu-latest
