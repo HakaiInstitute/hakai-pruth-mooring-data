@@ -14,3 +14,6 @@ Roughly speaking, here are the steps required to retrieve data and get it online
 - All new measurements recorded in the last few weeks should be visible online within a couple of hours.  If you think something may not be working correctly, contact Ray
 - All new measurements recorded in the last year should be visible by the next day.  If you think something may not be working correctly, contact Ray
 - All new measurements should be visible in the next few days.  This really only applies if you are adding measurements recorded more than a year ago, so should not happen very often, if ever
+
+## Data Release 
+For any changes to the data repository main branch, a series of tests are applied. If all tests are sucessfully completed. The main branch is then merge automatically to the release branch. 

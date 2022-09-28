@@ -1,0 +1,39 @@
+name: Generate Release
+on:
+  push:
+    branches: main
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Hakai Tests
+        run: |
+          python -m pip install --upgrade pip
+          pip install git+https://HakaiInstitute:${{secrets.CI_TOKEN}}@github.com/HakaiInstitute/hakai-datasets-repo-standard-tests.git
+      - name: Test with pytest
+        run: |
+          pytest --pyargs hakai_data_repo_tests
+
+  release:
+    runs-on: ubuntu-latest
+    needs: tests
+    steps:
+      - uses: actions/checkout@v3
+      # Make changes to pull request here
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          base: release
+          branch: main
+          title: 'Automated release'
+          commit-message: 'Automated pull request to release branch'
+          body: 'Automated pull request to release branch'
+          labels: release,automated
