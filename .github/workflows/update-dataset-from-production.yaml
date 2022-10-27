@@ -1,5 +1,4 @@
-name: Test dataset
-
+name: Tell to parse dataset
 on:
   push:
     branches: production
@@ -14,4 +13,3 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: HakaiInstitute/hakai-sensor-network-sa-sensors-python-only
           event-type: my-event
-          client-payload: 'oh yeah!'
