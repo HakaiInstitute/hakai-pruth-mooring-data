@@ -1,4 +1,4 @@
-name: Tell to parse dataset
+name: Tell Hakai servers to update dataset
 on:
   push:
     branches: production
