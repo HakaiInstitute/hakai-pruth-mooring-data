@@ -4,7 +4,7 @@ on:
     branches: production
 
 jobs:
-  tests:
+  tell-server-to-pull:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Dispatch
@@ -12,4 +12,4 @@ jobs:
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: HakaiInstitute/hakai-sensor-network-sa-sensors-python-only
-          event-type: my-event
+          event-type: pull-all-datasets
