@@ -1,0 +1,14 @@
+data:
+  search_pattern:
+    [
+      'raw-data/**/*.csv',
+      'raw-data/**/*.txt',
+      'raw-data/**/*.MON',
+      'processed-data/**/*.csv',
+      'processed-data/**/*.txt',
+      processed-data/**/*.MON',
+    ]
+  recursive: true
+file_naming_convention: '.*'
+table_prefix: ''
+station_from_filename: false
