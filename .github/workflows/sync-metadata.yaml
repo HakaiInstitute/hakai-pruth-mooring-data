@@ -11,8 +11,8 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Sync metadata
-        uses: HakaiInstitute/hakai-ckan-records-conversion/sync@main
+        uses: hakaiinstitute/hakai-ckan-records-conversion/sync@main
         with:
-            dataset_id: ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b
+            record-id: ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b
             outputs: contribution.cff
             format: cff
