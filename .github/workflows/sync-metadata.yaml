@@ -1,4 +1,4 @@
-name: Synchornize Catalogue Record with dataset
+name: Synchronize Catalogue Record with dataset
 
 on:
   workflow_dispatch:
