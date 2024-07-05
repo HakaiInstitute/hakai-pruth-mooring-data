@@ -15,4 +15,5 @@ jobs:
         with:
             record-id: ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b
             outputs: contribution.cff
-            format: cff
+            output_format: cff
+
