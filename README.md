@@ -1,5 +1,9 @@
 # Pruth Bay mooring data
+
 Data from the temperature string mooring deployed near Pruth Bay by Calvert Island<br>
+
+Hakai Catalogue: https://catalogue.hakai.org/dataset/ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b
+
 ## References
 - [Processed median daily temperatures / since December, 2017](https://hecate.hakai.org/sn/p/viewsndata.pl?dataTable=1daySamples&measurements=PruthMooring.WaterTemp_0m_Med,PruthMooring.WaterTemp_2m_Med,PruthMooring.WaterTemp_5m_Med,PruthMooring.WaterTemp_7_5m_Med,PruthMooring.WaterTemp_10m_Med,PruthMooring.WaterTemp_15m_Med,PruthMooring.WaterTemp_20m_Med,PruthMooring.WaterTemp_25m_Med,PruthMooring.WaterTemp_30m_Med,PruthMooring.WaterTemp_40m_Med,PruthMooring.WaterTemp_50m_Med,PruthMooring.WaterTemp_60m_Med)
 - [Processed median daily temperatures / last year](https://hecate.hakai.org/sn/p/viewsndata.pl?dataTable=1daySamples&measurements=PruthMooring.WaterTemp_0m_Med,PruthMooring.WaterTemp_2m_Med,PruthMooring.WaterTemp_5m_Med,PruthMooring.WaterTemp_7_5m_Med,PruthMooring.WaterTemp_10m_Med,PruthMooring.WaterTemp_15m_Med,PruthMooring.WaterTemp_20m_Med,PruthMooring.WaterTemp_25m_Med,PruthMooring.WaterTemp_30m_Med,PruthMooring.WaterTemp_40m_Med,PruthMooring.WaterTemp_50m_Med,PruthMooring.WaterTemp_60m_Med&dateRange=last52weeks)
