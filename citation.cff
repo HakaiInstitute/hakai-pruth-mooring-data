@@ -1,0 +1,83 @@
+abstract: "The Pruth Bay mooring is a surface mooring deployed in a shallow coastal\
+  \ environment near the Hakai Institute Calvert Island field station. The mooring\
+  \ is a test platform were low-cost oceanographic instrumentation is deployed at\
+  \ different depths to record sea water temperatures at an accuracy of 0.2 degrees\
+  \ Celsius. The temperature sensors are attached to an auxiliary line suspended from\
+  \ the surface buoy and along the main anchor line. Instruments are distributed tighter\
+  \ near the surface to better capture the higher vertical variability near the surface.\
+  \ \n\nThis dataset present the provisional dataset which has been automatically\
+  \ QCed and flagged."
+authors:
+- affiliation: Hakai Institute
+  email: data@hakai.org
+  name: ''
+  orcid: null
+  role: distributor,owner
+  ror: null
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  email: jessy.barrette@hakai.org
+  name: Barrette, Jessy
+  orcid: null
+  role: custodian,pointOfContact
+  ror: null
+date: '2024-07-24T16:54:05.401675'
+identifiers: []
+keywords:
+- oceans
+- temperature
+- mooring
+- low-cost
+- pruth
+- calvert-island
+- provisional-dataset
+- subsurfacetemperature
+- seasurfacetemperature
+- other
+- oceanography
+- temperature-sous-la-surface
+- temperature-de-surface
+- autre
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+message: "The Pruth Bay mooring is a surface mooring deployed in a shallow coastal\
+  \ environment near the Hakai Institute Calvert Island field station. The mooring\
+  \ is a test platform were low-cost oceanographic instrumentation is deployed at\
+  \ different depths to record sea water temperatures at an accuracy of 0.2 degrees\
+  \ Celsius. The temperature sensors are attached to an auxiliary line suspended from\
+  \ the surface buoy and along the main anchor line. Instruments are distributed tighter\
+  \ near the surface to better capture the higher vertical variability near the surface.\
+  \ \n\nThis dataset present the provisional dataset which has been automatically\
+  \ QCed and flagged."
+preferred-citation: 'en: [{\"type\": \"dataset\", \"id\": \"ca.cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b\",
+  \"author\": [{\"literal\": \"Hakai Institute\"}], \"issued\": [{\"date-parts\":
+  [\"2024\", \"07\", \"23\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
+  mooring deployed in a shallow coastal environment near the Hakai Institute Calvert
+  Island field station. The mooring is a test platform were low-cost oceanographic
+  instrumentation is deployed at different depths to record sea water temperatures
+  at an accuracy of 0.2 degrees Celsius. The temperature sensors are attached to an
+  auxiliary line suspended from the surface buoy and along the main anchor line. Instruments
+  are distributed tighter near the surface to better capture the higher vertical variability
+  near the surface. \n\nThis dataset present the provisional dataset which has been
+  automatically QCed and flagged.\", \"edition\": \"\", \"edition-date\": \"\", \"publisher\":
+  \"\", \"title\": \"Pruth Bay Oceanographic Mooring on Calvert Island Provisional\",
+  \"language\": \"en\", \"URL\": \"https://catalogue.hakai.org/dataset/ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b?local=en\"}]
+
+  fr: [{\"type\": \"dataset\", \"id\": \"ca.cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b\",
+  \"author\": [{\"literal\": \"Hakai Institute\"}], \"issued\": [{\"date-parts\":
+  [\"2024\", \"07\", \"23\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
+  mooring deployed in a shallow coastal environment near the Hakai Institute Calvert
+  Island field station. The mooring is a test platform were low-cost oceanographic
+  instrumentation is deployed at different depths to record sea water temperatures
+  at an accuracy of 0.2 degrees Celsius. The temperature sensors are attached to an
+  auxiliary line suspended from the surface buoy and along the main anchor line. Instruments
+  are distributed tighter near the surface to better capture the higher vertical variability
+  near the surface. \n\nThis dataset present the provisional dataset which has been
+  automatically QCed and flagged.\", \"edition\": \"\", \"edition-date\": \"\", \"publisher\":
+  \"\", \"title\": \"Pruth Bay Oceanographic Mooring on Calvert Island Provisional\",
+  \"language\": \"en\", \"URL\": \"https://catalogue.hakai.org/dataset/ca-cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b?local=en\"}]'
+title: Pruth Bay Oceanographic Mooring on Calvert Island Provisional
+type: dataset
+url: null
+version: null
