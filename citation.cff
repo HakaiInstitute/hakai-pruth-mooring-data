@@ -13,7 +13,7 @@ authors:
   name: ''
   orcid: null
   role: distributor,owner
-  ror: null
+  ror: https://ror.org/02pry0c91
 cff-version: 1.2.0
 contact:
 - affiliation: Hakai Institute
@@ -21,8 +21,8 @@ contact:
   name: Barrette, Jessy
   orcid: null
   role: custodian,pointOfContact
-  ror: null
-date: '2024-07-24T16:54:05.401675'
+  ror: https://ror.org/02pry0c91
+date: '2024-09-06T17:19:06.091396'
 identifiers: []
 keywords:
 - oceans
@@ -52,7 +52,7 @@ message: "The Pruth Bay mooring is a surface mooring deployed in a shallow coast
   \ QCed and flagged."
 preferred-citation: 'en: [{\"type\": \"dataset\", \"id\": \"ca.cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b\",
   \"author\": [{\"literal\": \"Hakai Institute\"}], \"issued\": [{\"date-parts\":
-  [\"2024\", \"07\", \"23\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
+  [\"2024\", \"08\", \"21\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
   mooring deployed in a shallow coastal environment near the Hakai Institute Calvert
   Island field station. The mooring is a test platform were low-cost oceanographic
   instrumentation is deployed at different depths to record sea water temperatures
@@ -66,7 +66,7 @@ preferred-citation: 'en: [{\"type\": \"dataset\", \"id\": \"ca.cioos_66ad87d2-bb
 
   fr: [{\"type\": \"dataset\", \"id\": \"ca.cioos_66ad87d2-bb96-4515-a907-6367ca6c0a2b\",
   \"author\": [{\"literal\": \"Hakai Institute\"}], \"issued\": [{\"date-parts\":
-  [\"2024\", \"07\", \"23\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
+  [\"2024\", \"08\", \"21\"]}], \"abstract\": \"The Pruth Bay mooring is a surface
   mooring deployed in a shallow coastal environment near the Hakai Institute Calvert
   Island field station. The mooring is a test platform were low-cost oceanographic
   instrumentation is deployed at different depths to record sea water temperatures
